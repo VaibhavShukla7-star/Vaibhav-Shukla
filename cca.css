@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+title{
+    color: red;
+    background-color: yellow;
+}
+.heading{
+    height: 80px;
+    background-color: #171a1ad2;
+    color: white;
+    text-decoration: dashed;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.main{
+    height: 400px;
+    width: 40%;
+    animation: changeImage 20s ease-in 0s infinite;
+    
+    background-repeat: none;
+    border-radius: 10px;
+    
+    
+}
+.mainout{
+    height:810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+@keyframes changeImage{
+    0%{
+        background-image: url("https://nitdgp.ac.in/iicpage/static/media/NitFrontGate.ac06eab6.webp");
+    background-size: contain;
+    background-repeat: none;
+    }
+    25%{
+        background-image: url("https://nitdgp.ac.in/uploads/acadimg/assets/images/slider/1.jpg");
+    background-size: contain;
+    }
+    50%{
+        background-image: url("https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img9.jpeg");
+        background-size: contain;
+    }
+    100%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3uWhPU-9nG9PngUOpcKTerIzGzpKgK3ncA&s");
+        background-size: contain;
+    }
+}
+.footer{
+    height: 600px;
+    background-color:  #37475a;
+}
+.upperfooter{
+    background-color: #e2e7e6;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowerfooter{
+    display: flex;
+    justify-content: space-around;
+    
+    color: white;
+}
+.box{
+    background-color: white;
+    color: black;
+    height:200px;
+    width: 300px;
+    margin: 200px 8px 8px 8px;
+}
+.content1{
+    height: 180px;
+    margin: 5px;
+    background-image: url("https://images.pexels.com/photos/951007/pexels-photo-951007.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-size: cover;
+}
+.content2{
+    margin:2px;
+    height:44px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thank{
+    background-color: #e2e7e6;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2e7e6;
+}
+.thank:hover{
+color:black
+}
+i{
+    height: 25px;
+}
+@media (min-width:788px){
+    
+   .main{
+    position:relative;
+    left:20px;
+    margin-right: 50px;
+   }
+}
